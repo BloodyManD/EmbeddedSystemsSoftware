@@ -1,0 +1,9 @@
+13:31:10 **** Incremental Build of configuration Nios II for project ucosii_tutorial ****
+make all 
+Info: Building ../ucosii_tutorial_bsp/
+make --no-print-directory -C ../ucosii_tutorial_bsp/
+[BSP build complete]
+[ucosii_tutorial build complete]
+
+13:31:10 Build Finished (took 126ms)
+

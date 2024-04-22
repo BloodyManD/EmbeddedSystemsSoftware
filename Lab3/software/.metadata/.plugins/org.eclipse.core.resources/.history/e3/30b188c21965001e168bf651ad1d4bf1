@@ -1,0 +1,128 @@
+#include <stdio.h>
+#include <unistd.h>
+#include "altera_avalon_pio_regs.h"
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+
+#define NONE_PRESSED 0xF  // Value read from button PIO when no buttons pressed
+#define DEBOUNCE 30000  // Time in microseconds to wait for switch debounce
+
+/* Declare a global variable to hold the edge capture value. */
+volatile int edge_capture = 0xf; // set to not enter until interrupt is handled
+
+#ifdef ALT_ENHANCED_INTERRUPT_API_PRESENT
+static void handle_button_interrupts(void* context)
+#else
+static void handle_button_interrupts(void* context, alt_u32 id)
+#endif
+{
+/* Cast context to edge_capture's type. It is important that this
+be declared volatile to avoid unwanted compiler optimization. */
+volatile int* edge_capture_ptr = (volatile int*) context;
+/*
+* Read the edge capture register on the button PIO.
+* Store value.
+*/
+*edge_capture_ptr =
+IORD_ALTERA_AVALON_PIO_EDGE_CAP(BUTTONS_BASE);
+/* Write to the edge capture register to reset it. */
+IOWR_ALTERA_AVALON_PIO_EDGE_CAP(BUTTONS_BASE, 0);
+/* Read the PIO to delay ISR exit. This is done to prevent a
+spurious interrupt in systems with high processor -> pio
+latency and fast interrupts. */
+IORD_ALTERA_AVALON_PIO_EDGE_CAP(BUTTONS_BASE);
+}
+
+/* Initialize the button_pio. */
+static void init_button_pio()
+{
+/* Recast the edge_capture pointer to match the
+alt_irq_register() function prototype. */
+void* edge_capture_ptr = (void*) &edge_capture;
+/* Enable all 4 button interrupts. */
+IOWR_ALTERA_AVALON_PIO_IRQ_MASK(BUTTONS_BASE, 0xf);
+/* Reset the edge capture register. */
+IOWR_ALTERA_AVALON_PIO_EDGE_CAP(BUTTONS_BASE, 0x0);
+/* Register the ISR. */
+#ifdef ALT_ENHANCED_INTERRUPT_API_PRESENT
+alt_ic_isr_register(BUTTONS_IRQ_INTERRUPT_CONTROLLER_ID, BUTTONS_IRQ, handle_button_interrupts, edge_capture_ptr, 0x0);
+#else
+alt_irq_register( BUTTON_PIO_IRQ, edge_capture_ptr, handle_button_interrupts );
+#endif
+}
+
+int main(void)
+{
+	int buttons;  // Use to hold button pressed value
+	int led = 0x01;  // Use to write to led
+
+	printf("Simple\n");   // print a message to show that program is running
+
+	IOWR_ALTERA_AVALON_PIO_DATA(GREEN_LED_BASE,led); // write initial value to pio
+	init_button_pio();
+	while (1)
+	{
+//		buttons = IORD_ALTERA_AVALON_PIO_DATA(BUTTONS_BASE); // read buttons via pio
+		buttons = edge_capture;
+		if (buttons != NONE_PRESSED)  // if button pressed
+		{
+			printf("%d", buttons);
+			switch(buttons){
+				case 0x1:{
+					led = 0x01;
+					break;
+				}
+				case 0x2:{
+					if (led == 0x01) led = 0x80;
+					else led = led >> 1;
+					break;
+				}
+				case 0x4:{
+					if (led == 0x80) led = 0x01;
+					else led = led << 1;
+					break;
+				}
+				case 0x8:{
+					led = 0x80;
+					break;
+				}
+			}
+
+
+//			if (buttons == 0x7) led = 0x80; // if KEY3 is pressed turn on leftmost LED
+//			if (buttons == 0xb){ // if KEY2 is pressed
+//				if (led == 0x80) led = 0x01; // if leftmost LED is on move to rightmost LED
+//				else led = led << 1; // else move left
+//			}
+//			if (buttons == 0xd){ // if KEY1 is pressed
+//				if (led == 0x01) led = 0x80; // if rightmost LED is on move to leftmost LED
+//				else led = led >> 1; // else move right
+//			}
+//			if (buttons == 0xe) led = 0x01; // if KEY0 is pressed turn on leftmost LED
+
+
+
+//			if (led >= 0x80)  // if pattern is 00000001 on board (leds in reverse order)
+//				led = 0x01;  // reset pattern
+//			else
+//				led = led << 1;  // shift right on board (led0 is far left)
+
+			IOWR_ALTERA_AVALON_PIO_DATA(GREEN_LED_BASE,led);  // write new value to pio
+
+			/* Switch debounce routine
+			   Wait for small delay after intial press for debouncing
+			   Wait for release of key
+			   Wait for small delay after release for debouncing */
+
+//			usleep (DEBOUNCE);
+//			while (buttons != NONE_PRESSED)  // wait for button release
+//				buttons = IORD_ALTERA_AVALON_PIO_DATA(BUTTONS_BASE);   // update
+//			usleep (DEBOUNCE);
+			edge_capture = 0xf;
+		}
+
+	}
+
+}  // end
+

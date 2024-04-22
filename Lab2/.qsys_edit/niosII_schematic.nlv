@@ -1,0 +1,35 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst niosII.sdram -pg 1 -lvl 4 -y 490
+preplace inst niosII -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst niosII.sys_clk_timer -pg 1 -lvl 4 -y 390
+preplace inst niosII.sdram_bridge -pg 1 -lvl 3 -y 350
+preplace inst niosII.instruction_tcm -pg 1 -lvl 4 -y 150
+preplace inst niosII.cpu.cpu -pg 1
+preplace inst niosII.clk_100 -pg 1 -lvl 2 -y 490
+preplace inst niosII.sysid -pg 1 -lvl 4 -y 690
+preplace inst niosII.seven_seg -pg 1 -lvl 4 -y 770
+preplace inst niosII.jtag_uart -pg 1 -lvl 4 -y 290
+preplace inst niosII.green_led -pg 1 -lvl 4 -y 590
+preplace inst niosII.cpu.clock_bridge -pg 1
+preplace inst niosII.cpu.reset_bridge -pg 1
+preplace inst niosII.buttons -pg 1 -lvl 4 -y 30
+preplace inst niosII.cpu -pg 1 -lvl 2 -y 220
+preplace inst niosII.clk_50 -pg 1 -lvl 1 -y 350
+preplace netloc POINT_TO_POINT<net_container>niosII</net_container>(SLAVE)instruction_tcm.s1,(MASTER)cpu.tightly_coupled_instruction_master_0) 1 2 2 NJ 330 910
+preplace netloc INTERCONNECT<net_container>niosII</net_container>(MASTER)cpu.instruction_master,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)cpu.debug_mem_slave,(SLAVE)sys_clk_timer.s1,(SLAVE)sysid.control_slave,(SLAVE)sdram_bridge.s0,(SLAVE)instruction_tcm.s2,(MASTER)cpu.data_master,(SLAVE)green_led.s1,(SLAVE)seven_seg.s1,(SLAVE)buttons.s1) 1 1 3 330 400 720 290 990
+preplace netloc EXPORT<net_container>niosII</net_container>(SLAVE)niosII.reset_100,(SLAVE)clk_100.clk_in_reset) 1 0 2 NJ 520 NJ
+preplace netloc EXPORT<net_container>niosII</net_container>(SLAVE)buttons.external_connection,(SLAVE)niosII.btn) 1 0 4 NJ 60 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>niosII</net_container>(SLAVE)clk_50.clk_in_reset,(SLAVE)niosII.reset_50) 1 0 1 NJ
+preplace netloc EXPORT<net_container>niosII</net_container>(SLAVE)niosII.hex,(SLAVE)seven_seg.external_connection) 1 0 4 NJ 800 NJ 800 NJ 800 NJ
+preplace netloc POINT_TO_POINT<net_container>niosII</net_container>(SLAVE)sdram.s1,(MASTER)sdram_bridge.m0) 1 3 1 910
+preplace netloc FAN_OUT<net_container>niosII</net_container>(SLAVE)buttons.clk,(SLAVE)sysid.clk,(SLAVE)sdram_bridge.s0_clk,(MASTER)clk_50.clk,(SLAVE)seven_seg.clk,(SLAVE)sys_clk_timer.clk,(SLAVE)jtag_uart.clk,(SLAVE)instruction_tcm.clk1,(SLAVE)instruction_tcm.clk2,(SLAVE)cpu.clk,(SLAVE)green_led.clk) 1 1 3 290 420 780 480 950
+preplace netloc EXPORT<net_container>niosII</net_container>(SLAVE)clk_100.clk_in,(SLAVE)niosII.clk_100) 1 0 2 NJ 500 NJ
+preplace netloc INTERCONNECT<net_container>niosII</net_container>(SLAVE)sdram_bridge.m0_reset,(SLAVE)sdram.reset,(MASTER)clk_50.clk_reset,(SLAVE)sys_clk_timer.reset,(MASTER)cpu.debug_reset_request,(SLAVE)instruction_tcm.reset2,(SLAVE)sdram_bridge.s0_reset,(SLAVE)green_led.reset,(SLAVE)cpu.reset,(SLAVE)buttons.reset,(SLAVE)sysid.reset,(MASTER)clk_100.clk_reset,(SLAVE)seven_seg.reset,(SLAVE)jtag_uart.reset,(SLAVE)instruction_tcm.reset1) 1 1 3 310 380 740 520 970
+preplace netloc EXPORT<net_container>niosII</net_container>(SLAVE)niosII.led,(SLAVE)green_led.external_connection) 1 0 4 NJ 620 NJ 620 NJ 620 NJ
+preplace netloc EXPORT<net_container>niosII</net_container>(SLAVE)niosII.clk_50,(SLAVE)clk_50.clk_in) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>niosII</net_container>(SLAVE)buttons.irq,(MASTER)cpu.irq,(SLAVE)jtag_uart.irq,(SLAVE)sys_clk_timer.irq) 1 2 2 NJ 310 930
+preplace netloc FAN_OUT<net_container>niosII</net_container>(SLAVE)sdram_bridge.m0_clk,(MASTER)clk_100.clk,(SLAVE)sdram.clk) 1 2 2 760 500 NJ
+preplace netloc EXPORT<net_container>niosII</net_container>(SLAVE)sdram.wire,(SLAVE)niosII.sdram_wire) 1 0 4 NJ 560 NJ 560 NJ 560 NJ
+levelinfo -pg 1 0 80 1200
+levelinfo -hier niosII 90 120 450 810 1040 1190

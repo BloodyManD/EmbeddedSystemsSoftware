@@ -1,0 +1,1917 @@
+!SESSION 2023-10-07 13:05:55.406 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-10-07 13:06:57.119
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-07 13:10:05.321
+!MESSAGE Indexed 'niosII_training_bsp' (83 sources, 179 headers) in 4.58 sec: 5,666 declarations; 8,732 references; 46 unresolved inclusions; 4 syntax errors; 89 unresolved names (0.61%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-07 13:10:06.360
+!MESSAGE Indexed 'niosII_training' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2023-10-07 13:21:12.461 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-07 13:21:16.779
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-10-07 13:21:23.237
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:31:17.574
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:31:19.132
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:34:36.810
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:34:38.185
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:34:56.346
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:34:57.914
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:53:15.330
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:53:16.867
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:55:36.834
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 13:55:38.386
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 14:00:15.007
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 14:00:16.382
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 14:08:14.602
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 14:08:16.166
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 14:13:12.524
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 14:13:13.922
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:18:51.185
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:18:52.754
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:21:44.872
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:21:46.246
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:28:54.492
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:28:56.026
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:30:48.269
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:30:49.805
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:31:19.484
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:31:20.869
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:33:30.238
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:33:31.781
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:34:38.100
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:34:39.637
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:35:24.845
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:35:26.392
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:38:02.055
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:38:03.424
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:43:01.051
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:43:02.570
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:43:22.643
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:43:24.040
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:43:58.005
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:43:59.540
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY org.eclipse.debug.core 4 5012 2023-10-07 15:44:44.193
+!MESSAGE Breakpoint does not have an associated marker.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:46:02.014
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:46:03.548
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:47:00.949
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 15:47:02.326
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+!SESSION 2023-10-07 16:32:07.294 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-10-07 16:32:21.139
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:33:41.485
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:33:43.030
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:34:05.663
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:34:07.189
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:35:25.313
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:35:26.862
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:38:11.554
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:38:12.929
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:38:46.824
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:38:48.784
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:40:01.290
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:40:03.546
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --tcpport=auto --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:57:22.498
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:57:23.884
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:59:01.030
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 16:59:02.403
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:00:01.084
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:00:02.475
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:08:14.682
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:08:16.059
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:16:09.346
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:16:10.730
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:19:51.921
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:19:53.307
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:24:33.834
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-07 17:24:35.201
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+!SESSION 2023-10-21 16:00:19.381 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-21 16:00:35.844
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-10-21 16:00:42.871
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2023-10-21 16:16:37.283 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-10-21 16:16:53.007
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-21 16:17:23.891
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-21 16:17:25.440
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-4]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab1/software/niosII_training/niosII_training.elf]
+!SESSION 2023-12-02 11:12:01.389 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-02 11:15:09.114
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org: Name or service not known. ; version: 1.100.0.v20160217-0435
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-02 11:22:59.588
+!MESSAGE Indexed 'ucosii_tutorial_bsp' (95 sources, 197 headers) in 2.74 sec: 7,471 declarations; 17,044 references; 16 unresolved inclusions; 3 syntax errors; 51 unresolved names (0.21%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-02 11:24:12.414
+!MESSAGE Indexed 'ucosii_tutorial' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 11:52:56.514
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 11:52:57.914
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/niosII_training/niosII_training.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 11:53:12.282
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 11:53:13.657
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 12:36:30.316
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 12:36:31.723
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-02 12:53:22.720
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-02 12:53:22.761
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 12:53:41.675
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 12:53:43.258
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 13:25:05.709
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 13:25:07.123
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 13:37:14.324
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 13:37:15.748
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-02 15:24:49.948
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-02 15:24:49.950
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:25:06.154
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:25:07.720
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:26:59.930
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:27:01.339
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:28:55.656
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:28:57.079
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:31:19.398
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:31:20.817
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:39:23.918
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:39:25.327
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:53:57.799
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:53:58.481
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:53:59.860
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:54:36.612
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:54:36.893
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:54:38.288
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:55:08.213
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:55:08.495
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:55:09.865
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:56:41.978
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:56:42.156
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:56:43.537
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:57:51.099
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:57:51.274
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:57:52.652
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:59:05.948
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:59:06.613
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 15:59:07.997
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:00:13.015
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:00:13.396
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:00:14.770
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:00:46.761
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:00:46.931
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:00:48.301
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:04:50.018
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:04:50.273
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:04:51.645
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:05:53.808
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:05:53.969
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:05:55.344
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:10:37.541
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:10:37.728
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:10:39.102
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:11:09.766
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:11:09.946
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:11:11.348
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:11:32.281
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:11:32.514
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:11:33.887
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:12:37.806
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:12:38.049
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:12:39.449
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:15:18.729
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:15:18.913
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:15:20.288
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:18:26.755
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:18:26.958
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-02 16:18:28.335
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+!SESSION 2023-12-16 15:47:57.635 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-16 15:48:39.223
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-16 15:48:53.048
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to www.eclipse.org:443 [www.eclipse.org/198.41.30.198] failed: Read timed out. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to www.eclipse.org:443 [www.eclipse.org/198.41.30.198] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:990)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1388)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1416)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1400)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-16 15:54:05.273
+!MESSAGE Indexed 'niosII_training' (4 sources, 56 headers) in 0.141 sec: 2,116 declarations; 2,800 references; 4 unresolved inclusions; 1 syntax errors; 62 unresolved names (1.2%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-16 15:55:19.214
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-16 15:55:19.216
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 15:57:11.730
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 15:57:13.284
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+!SESSION 2023-12-16 16:28:09.259 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-16 16:29:24.753
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-16 16:29:32.854
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:990)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1388)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1416)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1400)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-16 16:29:49.826
+!MESSAGE Indexed 'ucosii_tutorial_bsp' (95 sources, 193 headers) in 2.37 sec: 7,479 declarations; 17,761 references; 0 unresolved inclusions; 3 syntax errors; 8 unresolved names (0.032%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-16 16:29:51.145
+!MESSAGE Indexed 'ucosii_tutorial' (2 sources, 63 headers) in 0.163 sec: 2,734 declarations; 3,733 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+!SESSION 2023-12-16 16:31:55.965 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-16 16:31:57.853
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-16 16:32:05.008
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.ui 4 0 2023-12-16 16:36:51.531
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.TabFolder.gtk_switch_page(TabFolder.java:570)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2009)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4723)
+	at org.eclipse.swt.internal.gtk.OS._gtk_widget_show(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_widget_show(OS.java:14774)
+	at org.eclipse.swt.widgets.TabFolder.createItem(TabFolder.java:311)
+	at org.eclipse.swt.widgets.TabItem.createWidget(TabItem.java:123)
+	at org.eclipse.swt.widgets.TabItem.<init>(TabItem.java:75)
+	at org.eclipse.search.internal.ui.SearchDialog.createPageArea(SearchDialog.java:437)
+	at org.eclipse.search.internal.ui.util.ExtendedDialogWindow.createDialogArea(ExtendedDialogWindow.java:140)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:768)
+	at org.eclipse.jface.window.Window.create(Window.java:430)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1096)
+	at org.eclipse.search.internal.ui.SearchDialog.create(SearchDialog.java:301)
+	at org.eclipse.jface.window.Window.open(Window.java:792)
+	at org.eclipse.search.internal.ui.OpenSearchDialogAction.run(OpenSearchDialogAction.java:54)
+	at org.eclipse.search.internal.ui.OpenSearchDialogAction.run(OpenSearchDialogAction.java:45)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:247)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:228)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4481)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1329)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3819)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3430)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.ui 4 0 2023-12-16 16:36:54.272
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.TabFolder.gtk_switch_page(TabFolder.java:570)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2009)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4723)
+	at org.eclipse.swt.internal.gtk.OS._gtk_widget_show(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_widget_show(OS.java:14774)
+	at org.eclipse.swt.widgets.TabFolder.createItem(TabFolder.java:311)
+	at org.eclipse.swt.widgets.TabItem.createWidget(TabItem.java:123)
+	at org.eclipse.swt.widgets.TabItem.<init>(TabItem.java:75)
+	at org.eclipse.search.internal.ui.SearchDialog.createPageArea(SearchDialog.java:437)
+	at org.eclipse.search.internal.ui.util.ExtendedDialogWindow.createDialogArea(ExtendedDialogWindow.java:140)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:768)
+	at org.eclipse.jface.window.Window.create(Window.java:430)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1096)
+	at org.eclipse.search.internal.ui.SearchDialog.create(SearchDialog.java:301)
+	at org.eclipse.jface.window.Window.open(Window.java:792)
+	at org.eclipse.search.internal.ui.OpenSearchDialogAction.run(OpenSearchDialogAction.java:54)
+	at org.eclipse.search.internal.ui.OpenSearchDialogAction.run(OpenSearchDialogAction.java:45)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:247)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:228)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4481)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1329)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3819)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3430)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:19:30.112
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:19:31.698
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:23:11.384
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:23:12.792
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:27:50.700
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:27:52.115
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:29:08.931
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:29:10.356
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:30:23.999
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:30:25.415
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:34:50.378
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:34:51.789
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:38:05.712
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:38:07.138
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:39:28.542
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:39:30.445
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:40:45.051
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:40:46.787
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:41:46.145
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:41:47.559
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:45:58.424
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:45:58.873
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:46:00.250
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:49:41.594
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:49:42.981
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:54:57.319
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:54:59.920
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:55:47.769
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:55:49.165
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:56:17.486
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:56:18.891
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:57:56.743
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:57:58.596
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:59:45.877
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:59:46.343
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 19:59:48.182
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:00:49.851
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:00:50.549
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:00:52.449
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:01:40.236
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:01:40.809
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:01:42.596
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:03:02.271
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:03:02.513
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:03:04.086
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:06:10.138
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:06:11.972
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:10:59.349
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:10:59.770
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:11:01.655
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:14:02.461
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:14:02.892
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:14:04.746
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:16:13.241
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:16:13.681
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:16:15.514
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-16 20:20:31.198
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-16 20:20:31.200
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:20:48.032
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:20:49.606
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:24:25.724
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:24:27.313
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:30:45.944
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:30:47.356
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:33:04.042
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:33:05.627
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:34:29.287
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:34:29.663
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:34:31.539
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:35:14.513
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:35:14.846
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:35:16.428
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:35:56.297
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:35:56.534
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:35:57.929
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:36:32.702
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:36:33.134
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:36:34.513
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:37:25.850
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:37:26.199
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:37:27.591
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:39:00.037
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:39:00.322
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:39:01.711
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:48:44.602
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:48:46.614
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:52:23.387
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:52:23.868
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:52:25.267
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:53:31.666
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:53:32.170
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:53:33.571
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:55:55.678
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:55:57.768
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:56:57.278
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:56:59.126
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:58:08.863
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 20:58:10.466
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:08:07.578
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:08:07.754
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:08:09.132
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:08:36.943
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:08:37.521
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:08:38.921
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:08:59.120
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:08:59.287
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:09:00.664
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:10:05.172
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:10:05.442
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-16 21:10:06.832
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+!SESSION 2023-12-18 19:48:33.566 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:48:59.508
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-18 19:49:00.060
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:49:01.056
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:54:55.146
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:54:55.414
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:54:56.785
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:55:51.810
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:55:52.374
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:55:53.757
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:58:00.018
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:58:00.371
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 19:58:01.747
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:01:12.792
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:01:13.272
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:01:14.848
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:01:46.683
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:01:46.862
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:01:48.254
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:03:55.714
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:03:56.215
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:03:57.790
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:04:35.745
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:04:36.477
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:04:37.875
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:08:45.489
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:08:46.895
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:10:57.936
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:10:59.350
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:21:01.072
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:21:01.531
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:21:02.905
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:28:05.059
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:28:06.473
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:28:34.938
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:28:35.160
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:28:36.531
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:40:10.118
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:40:10.299
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 20:40:11.683
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:00:15.874
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-18 21:00:21.924
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-18 21:00:21.963
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-18 21:01:47.487
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-18 21:01:47.488
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:02:13.400
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:02:14.964
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:08:01.622
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:08:02.040
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:08:03.423
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:29:11.920
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:29:12.094
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-18 21:29:13.472
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+!SESSION 2023-12-23 10:44:50.481 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-23 10:45:13.393
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-23 12:22:56.151
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-23 12:22:56.212
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:24:21.526
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:24:23.089
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:29:01.926
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:29:03.336
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:29:29.634
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:29:31.258
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:31:21.420
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:31:22.832
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:32:39.659
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:32:41.647
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:33:54.973
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:33:56.777
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:35:20.213
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:35:20.656
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:35:22.037
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:36:36.434
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:36:36.656
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:36:38.037
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:37:42.036
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:37:42.265
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:37:43.679
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:39:39.254
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:39:39.449
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:39:40.819
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:41:13.604
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:41:13.800
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:41:15.170
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:44:01.624
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:44:01.888
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:44:03.271
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:45:35.285
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:45:35.536
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:45:36.915
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:46:10.519
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:46:10.820
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:46:12.215
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:46:40.669
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:46:40.991
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:46:42.368
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:48:20.253
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:48:20.583
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:48:21.957
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:49:34.120
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:49:34.295
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:49:35.665
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:49:42.425
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:49:42.589
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:49:43.986
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:50:33.244
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:50:33.427
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:50:34.800
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:52:37.013
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:52:38.419
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:53:29.145
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:53:29.314
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:53:30.697
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:54:50.054
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:54:51.468
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:58:55.858
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:59:37.543
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:59:37.547
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-23 12:59:38.761
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [1-6]', --device=1, --instance=0, --go, --sidp=0x8001058, --id=0x0, --timestamp=1696670962, /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-23 12:59:38.763
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:59:38.840
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:59:57.482
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 12:59:58.892
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:00:51.451
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:00:51.672
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:00:53.049
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:03:18.040
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:03:19.496
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:04:13.427
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:04:14.837
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:05:45.310
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:05:46.799
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:07:12.924
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:07:14.434
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+!SESSION 2023-12-23 13:08:24.542 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /opt/soft/intelFPGA_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-23 13:08:34.280
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:08:39.277
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:08:40.675
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:09:35.733
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:09:37.137
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:10:02.275
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:10:02.717
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:10:04.089
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:10:30.659
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:10:32.068
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:11:37.870
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:11:39.268
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:13:04.366
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:13:04.754
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:13:06.307
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:30:54.424
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [1-6]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-23 13:30:59.451
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-23 13:30:59.462
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:31:11.019
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --stop --sidp=0x8001058 --id=0x0 --timestamp=1696670962]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-23 13:31:12.571
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [1-6]' --device=1 --instance=0 --go --sidp=0x8001058 --id=0x0 --timestamp=1696670962 /home/user/EmbSW/iu311m/GavrilovNikita/Labs/Lab3/software/ucosii_tutorial/ucosii_tutorial.elf]

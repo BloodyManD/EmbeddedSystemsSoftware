@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="207" />
+   <irq preferredWidth="34" />
+   <name preferredWidth="206" />
+   <description preferredWidth="154" />
+   <export preferredWidth="99" />
+   <inputclock preferredWidth="33" />
+   <baseaddress preferredWidth="114" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library/Basic Functions,Library/Basic Functions/Simulation; Debug and Verification,Library/Processors and Peripherals,Library,Library/Processors and Peripherals/Inter-Process Communication,Project,Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance" />
+ <window width="1288" height="995" x="-4" y="0" />
+ <hdlexample language="VERILOG" />
+</preferences>

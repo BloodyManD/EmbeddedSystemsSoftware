@@ -1,0 +1,24 @@
+17:24:29 **** Incremental Build of configuration Nios II for project niosII_training ****
+make all 
+Info: Building ../niosII_training_bsp/
+make --no-print-directory -C ../niosII_training_bsp/
+[BSP build complete]
+[niosII_training build complete]
+17:24:33 **** Incremental Build of configuration Nios II for project niosII_training ****
+make all 
+Info: Building ../niosII_training_bsp/
+make --no-print-directory -C ../niosII_training_bsp/
+[BSP build complete]
+[niosII_training build complete]
+16:07:24 **** Incremental Build of configuration Nios II for project niosII_training ****
+make all 
+Info: Building ../niosII_training_bsp/
+make --no-print-directory -C ../niosII_training_bsp/
+[BSP build complete]
+[niosII_training build complete]
+16:17:23 **** Incremental Build of configuration Nios II for project niosII_training ****
+make all 
+Info: Building ../niosII_training_bsp/
+make --no-print-directory -C ../niosII_training_bsp/
+[BSP build complete]
+[niosII_training build complete]
